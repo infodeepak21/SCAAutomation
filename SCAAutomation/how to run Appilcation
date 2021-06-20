@@ -1,0 +1,9 @@
+# How to run the application
+#Download the code from Git locations 
+#Import the project as a existing maven projects
+#After import the project in eclipse then right click on project>> select maven >> update the mavean
+#click on project tab then clean the project.
+#Right Click on  project >> ran as maven clean
+#Right Click on  project >> ran as maven install
+#Right click on testng.xml file  Runs as TestNG Suite.
+#10 features file are present all are run and executed sucessfuly completed.

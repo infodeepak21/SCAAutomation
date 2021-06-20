@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Location found to save the file]]>
+    </line>
+    <line>
+      <![CDATA[              -------------------------------------- Test Started --------------------------------------              ]]>
+    </line>
+    <line>
+      <![CDATA[Recording started]]>
+    </line>
+    <line>
+      <![CDATA[              -------------------------------------- Test Completed --------------------------------------              ]]>
+    </line>
+    <line>
+      <![CDATA[Recording ended]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19193" started-at="2021-05-15T11:08:05 IST" finished-at="2021-05-15T11:08:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19193" started-at="2021-05-15T11:08:05 IST" finished-at="2021-05-15T11:08:24 IST">
+      <class name="dummy.Test">
+        <test-method status="PASS" signature="connectDataBase()[pri:0, instance:dummy.Test@6e38921c]" name="connectDataBase" is-config="true" duration-ms="652" started-at="2021-05-15T11:08:04 IST" finished-at="2021-05-15T11:08:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDataBase -->
+        <test-method status="PASS" signature="openBrowser(int)[pri:0, instance:dummy.Test@6e38921c]" name="openBrowser" is-config="true" duration-ms="15365" started-at="2021-05-15T11:08:05 IST" finished-at="2021-05-15T11:08:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testIntialization()[pri:0, instance:dummy.Test@6e38921c]" name="testIntialization" is-config="true" duration-ms="342" started-at="2021-05-15T11:08:20 IST" finished-at="2021-05-15T11:08:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Location found to save the file]]>
+            </line>
+            <line>
+              <![CDATA[              -------------------------------------- Test Started --------------------------------------              ]]>
+            </line>
+            <line>
+              <![CDATA[Recording started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIntialization -->
+        <test-method status="PASS" signature="test()[pri:0, instance:dummy.Test@6e38921c]" name="test" duration-ms="55" started-at="2021-05-15T11:08:20 IST" finished-at="2021-05-15T11:08:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="testCompletion()[pri:0, instance:dummy.Test@6e38921c]" name="testCompletion" is-config="true" duration-ms="2098" started-at="2021-05-15T11:08:20 IST" finished-at="2021-05-15T11:08:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[              -------------------------------------- Test Completed --------------------------------------              ]]>
+            </line>
+            <line>
+              <![CDATA[Recording ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCompletion -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:dummy.Test@6e38921c]" name="closeBrowser" is-config="true" duration-ms="1269" started-at="2021-05-15T11:08:22 IST" finished-at="2021-05-15T11:08:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:dummy.Test@6e38921c]" name="closeConnection" is-config="true" duration-ms="1" started-at="2021-05-15T11:08:24 IST" finished-at="2021-05-15T11:08:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+        <test-method status="PASS" signature="sendMailAfterExecution()[pri:0, instance:dummy.Test@6e38921c]" name="sendMailAfterExecution" is-config="true" duration-ms="0" started-at="2021-05-15T11:08:24 IST" finished-at="2021-05-15T11:08:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMailAfterExecution -->
+      </class> <!-- dummy.Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
